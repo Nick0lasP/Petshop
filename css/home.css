@@ -1,0 +1,13 @@
+/* home.css */
+section {
+    background: #ffffff;
+    width: 700px;
+    border: 2px solid #000000;
+    margin: 60px auto;
+    padding: 12px;
+    line-height: 24px;
+    border-radius: 20px;
+    /* inset (sombra interna), X, Y, BLUR, SPREAD, COLOR */
+    box-shadow: 4px 10px 20px 6px #999999;
+    text-shadow: 5px 5px 4px #999999;
+}

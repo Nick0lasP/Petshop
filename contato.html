@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/petshop.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <img src="img/logo-pet-2.png" alt="Logotipo">
+        <h1>pet shop</h1>
+
+        <nav class="menu">
+            <a href="index.html">home</a>
+            <a href="galeria.html">galeria</a>
+            <a href="contato.html">contato</a>
+        </nav>
+
+    </div>
+</header>
+
+<section>
+    <aside class="esquerda">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13818.710225637831!2d-51.20051176921459!3d-30.017413710272493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979c56d0e03b1%3A0xcc4ea47f1ca6dd2e!2sTargetTrust!5e0!3m2!1spt-BR!2sbr!4v1574119735328!5m2!1spt-BR!2sbr"></iframe>
+    </aside>
+    
+    <aside class="direita">
+        <form onsubmit="return validaForm()">
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+            <input type="text" id="email" name="email" placeholder="Digite o seu e-mail">
+            <textarea id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
+
+            <button type="submit">ENVIAR</button>
+            <p id="erro"></p>
+        </form>
+    </aside>
+
+    <div class="clear"></div>    
+</section>
+
+<footer>
+    Rua São Francisco da Califórnia, 23 - POA
+</footer>
+
+<script src="js/contato.js"></script>
+</body>
+</html>

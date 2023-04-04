@@ -1,0 +1,63 @@
+/* contato.css */
+section {
+    width: 620px;
+    min-height: 130px;
+    background: white;
+    margin: 60px auto;
+    padding: 10px;
+}
+aside {
+    width: 300px;
+    float: left;
+}
+.direita {
+    float: right;
+}
+iframe {
+    height: 275px;
+    border: none;
+}
+input,
+textarea,
+button {
+    border: 2px solid #0066cc;
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+input,
+textarea {
+    width: 300px;
+    font-family: Arial;
+    transition: all 1s;
+    outline: none;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+input.invalido,
+textarea.invalido {
+    border: 2px solid red;
+    background: #cccccc;
+}
+
+button[type=submit] {
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    background: #f3f3f3;
+}
+
+#erro {
+    color: #9b1e1e;
+    font-weight: bold;
+}
+
+
+
+/* helpers */
+.clear {
+    clear: both;
+}
